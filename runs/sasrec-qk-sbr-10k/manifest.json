@@ -1,0 +1,23 @@
+{
+  "source": "E:\\Tenrec\\Tenrec\\sbr_data_1M.csv",
+  "source_size_bytes": 1120679998,
+  "source_mtime": "2022-11-27T10:36:01",
+  "source_description": "Tenrec official SBR derived dataset: click-positive histories, items with corpus frequency below 2 or above 200000 removed, first 1M grouped user histories",
+  "selection": "first 10000 user groups from the official SBR file",
+  "user_group_contiguity_checked": true,
+  "split": "per-user next-item: all but last two events train; penultimate validation target; final event test target; users retained only when both targets occur in the selected cohort's training catalog",
+  "negative_sampling": "training only; negatives excluded from the user's training history; validation/test use full train-seen catalog via FAISS",
+  "candidate_catalog": "items present in the training histories of the selected cohort",
+  "counts": {
+    "users_read": 10000,
+    "raw_click_interactions": 463834,
+    "users_too_short": 81,
+    "users_without_warm_validation_and_test_targets": 4277,
+    "validation_targets_oov_after_warm_filter": 2789,
+    "test_targets_oov_after_warm_filter": 2701,
+    "users_with_warm_validation_and_test_targets": 5642,
+    "train_items": 77057,
+    "train_next_item_pairs": 234953
+  },
+  "cohort_sha256": "23b3f37492fc4c037269eab2f52a8972ea8901edf1850277af1cfa99b18de63b"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "epoch": 1,
+    "train_pairwise_loss": 2.8257045961174123,
+    "validation_recall20": 0.00012807377049180329,
+    "validation_hit20": 0.00012807377049180329,
+    "validation_ndcg20": 5.515837065489153e-05,
+    "validation_recall100": 0.0015368852459016393,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  }
+]

@@ -1,0 +1,1119 @@
+{
+  "cohort_sha256": "e1dd06db1104aa4f7538f2a8657a16d39a4c5d30f5448d693b7fe6b5ae2976fc",
+  "validation_popularity": {
+    "recall20": 0.0274077868852459,
+    "hit20": 0.0274077868852459,
+    "ndcg20": 0.010929249436735598,
+    "recall100": 0.07607581967213115,
+    "users": 7808,
+    "candidate_catalog": 135918,
+    "model": "training item popularity; exact full-catalog ranking"
+  },
+  "selected": {
+    "config": {
+      "idf_power": 0.5,
+      "recent": true,
+      "neighbors": 160,
+      "popularity_penalty": 0.0,
+      "collaborative_weight": 1.0
+    },
+    "metrics": {
+      "users": 7808,
+      "hits20": 668,
+      "hits100": 1431,
+      "recall20": 0.0855532786885246,
+      "recall100": 0.1832735655737705,
+      "ndcg20": 0.037553739219507394
+    }
+  },
+  "trials": [
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 668,
+        "hits100": 1431,
+        "recall20": 0.0855532786885246,
+        "recall100": 0.1832735655737705,
+        "ndcg20": 0.037553739219507394
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 652,
+        "hits100": 1419,
+        "recall20": 0.08350409836065574,
+        "recall100": 0.18173668032786885,
+        "ndcg20": 0.03684359854781879
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 604,
+        "hits100": 1364,
+        "recall20": 0.07735655737704918,
+        "recall100": 0.17469262295081966,
+        "ndcg20": 0.034674381595599574
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 586,
+        "hits100": 1200,
+        "recall20": 0.07505122950819672,
+        "recall100": 0.15368852459016394,
+        "ndcg20": 0.03425311388407732
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 641,
+        "hits100": 1419,
+        "recall20": 0.08209528688524591,
+        "recall100": 0.18173668032786885,
+        "ndcg20": 0.03379741748373396
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 578,
+        "hits100": 1306,
+        "recall20": 0.07402663934426229,
+        "recall100": 0.16726434426229508,
+        "ndcg20": 0.033702417056520384
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 562,
+        "hits100": 1147,
+        "recall20": 0.07197745901639344,
+        "recall100": 0.14690061475409835,
+        "ndcg20": 0.033198976208946
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 589,
+        "hits100": 1159,
+        "recall20": 0.07543545081967214,
+        "recall100": 0.1484375,
+        "ndcg20": 0.03314295185076439
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 580,
+        "hits100": 1194,
+        "recall20": 0.07428278688524591,
+        "recall100": 0.15292008196721313,
+        "ndcg20": 0.03303484485498059
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 576,
+        "hits100": 1193,
+        "recall20": 0.07377049180327869,
+        "recall100": 0.1527920081967213,
+        "ndcg20": 0.03289877765659606
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 566,
+        "hits100": 1154,
+        "recall20": 0.07248975409836066,
+        "recall100": 0.14779713114754098,
+        "ndcg20": 0.03266850500032015
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 591,
+        "hits100": 1203,
+        "recall20": 0.07569159836065574,
+        "recall100": 0.15407274590163936,
+        "ndcg20": 0.03262584364857464
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 618,
+        "hits100": 1383,
+        "recall20": 0.07914959016393443,
+        "recall100": 0.17712602459016394,
+        "ndcg20": 0.03241125331069406
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 531,
+        "hits100": 1129,
+        "recall20": 0.06800717213114754,
+        "recall100": 0.1445952868852459,
+        "ndcg20": 0.03170778626420972
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 556,
+        "hits100": 1155,
+        "recall20": 0.07120901639344263,
+        "recall100": 0.1479252049180328,
+        "ndcg20": 0.03151886923344142
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 522,
+        "hits100": 1163,
+        "recall20": 0.06685450819672131,
+        "recall100": 0.1489497950819672,
+        "ndcg20": 0.031440120470513665
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 534,
+        "hits100": 1165,
+        "recall20": 0.06839139344262295,
+        "recall100": 0.1492059426229508,
+        "ndcg20": 0.031426632134061654
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 570,
+        "hits100": 1335,
+        "recall20": 0.07300204918032786,
+        "recall100": 0.17097848360655737,
+        "ndcg20": 0.03078805089444935
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 520,
+        "hits100": 1096,
+        "recall20": 0.06659836065573771,
+        "recall100": 0.1403688524590164,
+        "ndcg20": 0.03070800417653824
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 505,
+        "hits100": 1101,
+        "recall20": 0.06467725409836066,
+        "recall100": 0.14100922131147542,
+        "ndcg20": 0.030411943135740627
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 515,
+        "hits100": 1100,
+        "recall20": 0.06595799180327869,
+        "recall100": 0.1408811475409836,
+        "ndcg20": 0.030290504771655586
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 545,
+        "hits100": 1277,
+        "recall20": 0.0698002049180328,
+        "recall100": 0.1635502049180328,
+        "ndcg20": 0.029972427330011563
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 525,
+        "hits100": 1139,
+        "recall20": 0.06723872950819672,
+        "recall100": 0.14587602459016394,
+        "ndcg20": 0.029683630788631885
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 504,
+        "hits100": 1093,
+        "recall20": 0.06454918032786885,
+        "recall100": 0.13998463114754098,
+        "ndcg20": 0.02858153734168917
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 508,
+        "hits100": 1109,
+        "recall20": 0.06506147540983606,
+        "recall100": 0.14203381147540983,
+        "ndcg20": 0.027190046253375476
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 503,
+        "hits100": 1116,
+        "recall20": 0.06442110655737705,
+        "recall100": 0.14293032786885246,
+        "ndcg20": 0.027076472486027292
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 478,
+        "hits100": 1073,
+        "recall20": 0.06121926229508197,
+        "recall100": 0.13742315573770492,
+        "ndcg20": 0.026446015810344312
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 463,
+        "hits100": 1036,
+        "recall20": 0.059298155737704916,
+        "recall100": 0.13268442622950818,
+        "ndcg20": 0.02578174439719009
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 505,
+        "hits100": 1121,
+        "recall20": 0.06467725409836066,
+        "recall100": 0.14357069672131148,
+        "ndcg20": 0.025429946037591605
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 495,
+        "hits100": 1093,
+        "recall20": 0.06339651639344263,
+        "recall100": 0.13998463114754098,
+        "ndcg20": 0.025265413131089168
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 514,
+        "hits100": 1252,
+        "recall20": 0.06582991803278689,
+        "recall100": 0.1603483606557377,
+        "ndcg20": 0.025015545654461454
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 481,
+        "hits100": 1170,
+        "recall20": 0.061603483606557374,
+        "recall100": 0.14984631147540983,
+        "ndcg20": 0.02437192203905916
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 465,
+        "hits100": 1069,
+        "recall20": 0.059554303278688527,
+        "recall100": 0.1369108606557377,
+        "ndcg20": 0.02416776010584307
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 421,
+        "hits100": 862,
+        "recall20": 0.05391905737704918,
+        "recall100": 0.11039959016393443,
+        "ndcg20": 0.024130627692360195
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 490,
+        "hits100": 1225,
+        "recall20": 0.0627561475409836,
+        "recall100": 0.15689036885245902,
+        "ndcg20": 0.02402372246567547
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 415,
+        "hits100": 913,
+        "recall20": 0.05315061475409836,
+        "recall100": 0.1169313524590164,
+        "ndcg20": 0.023796100645275032
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 402,
+        "hits100": 881,
+        "recall20": 0.051485655737704916,
+        "recall100": 0.11283299180327869,
+        "ndcg20": 0.02372039624890252
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 458,
+        "hits100": 1023,
+        "recall20": 0.0586577868852459,
+        "recall100": 0.13101946721311475,
+        "ndcg20": 0.02359680359902382
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 458,
+        "hits100": 1145,
+        "recall20": 0.0586577868852459,
+        "recall100": 0.14664446721311475,
+        "ndcg20": 0.023469736239542724
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 391,
+        "hits100": 847,
+        "recall20": 0.050076844262295084,
+        "recall100": 0.10847848360655737,
+        "ndcg20": 0.02341654736502272
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 390,
+        "hits100": 811,
+        "recall20": 0.04994877049180328,
+        "recall100": 0.10386782786885246,
+        "ndcg20": 0.023286313125822054
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 394,
+        "hits100": 891,
+        "recall20": 0.05046106557377049,
+        "recall100": 0.11411372950819672,
+        "ndcg20": 0.023068535249834272
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.75
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 364,
+        "hits100": 784,
+        "recall20": 0.0466188524590164,
+        "recall100": 0.10040983606557377,
+        "ndcg20": 0.022857429187105312
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.5
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 373,
+        "hits100": 838,
+        "recall20": 0.047771516393442626,
+        "recall100": 0.10732581967213115,
+        "ndcg20": 0.022736464013091224
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 387,
+        "hits100": 814,
+        "recall20": 0.04956454918032787,
+        "recall100": 0.10425204918032786,
+        "ndcg20": 0.02205129973286717
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 363,
+        "hits100": 798,
+        "recall20": 0.04649077868852459,
+        "recall100": 0.10220286885245902,
+        "ndcg20": 0.021589119916795463
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 361,
+        "hits100": 756,
+        "recall20": 0.046234631147540985,
+        "recall100": 0.09682377049180328,
+        "ndcg20": 0.02144273111159251
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 1.0
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 348,
+        "hits100": 731,
+        "recall20": 0.04456967213114754,
+        "recall100": 0.0936219262295082,
+        "ndcg20": 0.021384855374234533
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 278,
+        "hits100": 856,
+        "recall20": 0.03560450819672131,
+        "recall100": 0.1096311475409836,
+        "ndcg20": 0.01504136160280885
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 278,
+        "hits100": 836,
+        "recall20": 0.03560450819672131,
+        "recall100": 0.10706967213114754,
+        "ndcg20": 0.015011959251626647
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 269,
+        "hits100": 836,
+        "recall20": 0.034451844262295084,
+        "recall100": 0.10706967213114754,
+        "ndcg20": 0.014796597160520479
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 267,
+        "hits100": 856,
+        "recall20": 0.034195696721311473,
+        "recall100": 0.1096311475409836,
+        "ndcg20": 0.014630885562303308
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 262,
+        "hits100": 852,
+        "recall20": 0.03355532786885246,
+        "recall100": 0.1091188524590164,
+        "ndcg20": 0.014518807662362427
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 264,
+        "hits100": 839,
+        "recall20": 0.03381147540983607,
+        "recall100": 0.10745389344262295,
+        "ndcg20": 0.014414325816711421
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 263,
+        "hits100": 909,
+        "recall20": 0.03368340163934426,
+        "recall100": 0.11641905737704918,
+        "ndcg20": 0.014390908113376396
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 263,
+        "hits100": 887,
+        "recall20": 0.03368340163934426,
+        "recall100": 0.11360143442622951,
+        "ndcg20": 0.014384520557184786
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 266,
+        "hits100": 908,
+        "recall20": 0.03406762295081967,
+        "recall100": 0.11629098360655737,
+        "ndcg20": 0.014348190847672792
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 269,
+        "hits100": 903,
+        "recall20": 0.034451844262295084,
+        "recall100": 0.11565061475409837,
+        "ndcg20": 0.014326770412803733
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.0,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 257,
+        "hits100": 892,
+        "recall20": 0.03291495901639344,
+        "recall100": 0.11424180327868852,
+        "ndcg20": 0.014217026401242549
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 160,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 263,
+        "hits100": 891,
+        "recall20": 0.03368340163934426,
+        "recall100": 0.11411372950819672,
+        "ndcg20": 0.014100509719964295
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 246,
+        "hits100": 794,
+        "recall20": 0.0315061475409836,
+        "recall100": 0.1016905737704918,
+        "ndcg20": 0.013439927772950524
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.5,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 246,
+        "hits100": 823,
+        "recall20": 0.0315061475409836,
+        "recall100": 0.10540471311475409,
+        "ndcg20": 0.01340593835196791
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": false,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 243,
+        "hits100": 779,
+        "recall20": 0.0311219262295082,
+        "recall100": 0.09976946721311475,
+        "ndcg20": 0.013332489329225258
+      }
+    },
+    {
+      "config": {
+        "idf_power": 0.0,
+        "recent": true,
+        "neighbors": 40,
+        "popularity_penalty": 0.25,
+        "collaborative_weight": 0.25
+      },
+      "metrics": {
+        "users": 7808,
+        "hits20": 238,
+        "hits100": 801,
+        "recall20": 0.03048155737704918,
+        "recall100": 0.10258709016393443,
+        "ndcg20": 0.013142380103172294
+      }
+    }
+  ]
+}

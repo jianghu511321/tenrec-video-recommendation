@@ -1,0 +1,5 @@
+# Versions used for the recorded CPU experiments (Python 3.9.12).
+numpy==1.26.4
+scipy==1.13.1
+torch==2.8.0
+faiss-cpu==1.13.0

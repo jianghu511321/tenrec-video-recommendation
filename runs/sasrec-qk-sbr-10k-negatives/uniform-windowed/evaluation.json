@@ -1,0 +1,29 @@
+{
+  "selected_epoch": 8,
+  "validation_ndcg20": 0.007508199054208758,
+  "test": {
+    "recall20": 0.016921119592875317,
+    "hit20": 0.016921119592875317,
+    "ndcg20": 0.006979021521617069,
+    "recall100": 0.054707379134860054,
+    "users": 7860,
+    "catalog_items": 135918,
+    "retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  "training": {
+    "seed": 20261114,
+    "total_epochs_run": 8,
+    "epochs_this_invocation": 8,
+    "initial_checkpoint": null,
+    "optimizer_state": "single run",
+    "batch_size": 128,
+    "max_len": 50,
+    "embedding_dim": 64,
+    "learning_rate": 0.001,
+    "device": "cpu",
+    "cpu_threads": 4,
+    "negative_sampling": "uniform",
+    "sequence_batches": true,
+    "objective": "sampled-negative pairwise next-item loss"
+  }
+}

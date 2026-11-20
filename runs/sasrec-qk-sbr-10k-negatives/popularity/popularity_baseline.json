@@ -1,0 +1,21 @@
+{
+  "validation": {
+    "recall20": 0.0274077868852459,
+    "hit20": 0.0274077868852459,
+    "ndcg20": 0.010929249436735598,
+    "recall100": 0.07607581967213115,
+    "users": 7808,
+    "candidate_catalog": 135918,
+    "model": "training item popularity; exact full-catalog ranking"
+  },
+  "test": {
+    "recall20": 0.02340966921119593,
+    "hit20": 0.02340966921119593,
+    "ndcg20": 0.00930970896642577,
+    "recall100": 0.07290076335877863,
+    "users": 7860,
+    "candidate_catalog": 135918,
+    "model": "training item popularity; exact full-catalog ranking"
+  },
+  "protocol": "same per-user temporal targets and train-seen candidate catalog as SASRec; prior clicks filtered"
+}

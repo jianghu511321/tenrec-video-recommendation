@@ -1,0 +1,90 @@
+[
+  {
+    "epoch": 1,
+    "train_pairwise_loss": 4.178910276547079,
+    "validation_recall20": 0.00012807377049180329,
+    "validation_hit20": 0.00012807377049180329,
+    "validation_ndcg20": 3.133331738194493e-05,
+    "validation_recall100": 0.0005122950819672131,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 2,
+    "train_pairwise_loss": 3.2526372811852435,
+    "validation_recall20": 0.00038422131147540983,
+    "validation_hit20": 0.00038422131147540983,
+    "validation_ndcg20": 0.00010137382529754265,
+    "validation_recall100": 0.0012807377049180327,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 3,
+    "train_pairwise_loss": 1.842845470826068,
+    "validation_recall20": 0.00025614754098360657,
+    "validation_hit20": 0.00025614754098360657,
+    "validation_ndcg20": 0.00016268418986005632,
+    "validation_recall100": 0.0010245901639344263,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 4,
+    "train_pairwise_loss": 0.9632157000244191,
+    "validation_recall20": 0.00038422131147540983,
+    "validation_hit20": 0.00038422131147540983,
+    "validation_ndcg20": 0.00015398535912144857,
+    "validation_recall100": 0.0024334016393442624,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 5,
+    "train_pairwise_loss": 0.748391842888427,
+    "validation_recall20": 0.0014088114754098361,
+    "validation_hit20": 0.0014088114754098361,
+    "validation_ndcg20": 0.00042216340940939194,
+    "validation_recall100": 0.00704405737704918,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 6,
+    "train_pairwise_loss": 0.7027075994727282,
+    "validation_recall20": 0.00704405737704918,
+    "validation_hit20": 0.00704405737704918,
+    "validation_ndcg20": 0.00205589331848098,
+    "validation_recall100": 0.018442622950819672,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 7,
+    "train_pairwise_loss": 0.6542543922014771,
+    "validation_recall20": 0.013191598360655738,
+    "validation_hit20": 0.013191598360655738,
+    "validation_ndcg20": 0.004513850557671348,
+    "validation_recall100": 0.04008709016393443,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 8,
+    "train_pairwise_loss": 0.609819545358418,
+    "validation_recall20": 0.018186475409836065,
+    "validation_hit20": 0.018186475409836065,
+    "validation_ndcg20": 0.007508199054208758,
+    "validation_recall100": 0.05891393442622951,
+    "validation_users": 7808,
+    "validation_catalog_items": 135918,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  }
+]

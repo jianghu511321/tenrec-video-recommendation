@@ -1,0 +1,15 @@
+{
+  "seed": 20261114,
+  "total_epochs_run": 8,
+  "epochs_this_invocation": 8,
+  "batch_size": 128,
+  "max_len": 50,
+  "embedding_dim": 64,
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "cpu_threads": 4,
+  "negative_sampling": "uniform",
+  "sequence_batches": true,
+  "initial_checkpoint": null,
+  "optimizer_state": "single run"
+}

@@ -1,0 +1,38 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+
+# Dataset downloads, encoded interactions, and checkpoints
+/data/
+*.csv
+*.parquet
+*.pkl
+*.pt
+*.pth
+*.npy
+*.npz
+*.index
+cohort.json
+item_map.json
+id_maps.json
+
+# Reference snapshots are documented with upstream commits in SOURCES.md
+vendor/
+
+# New reproducibility runs
+runs/*-repro/
+tmp/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+  "selected_epoch": 5,
+  "validation": {
+    "recall20": 0.02197802197802198,
+    "hit20": 0.02197802197802198,
+    "ndcg20": 0.008534078410658643,
+    "users": 5642,
+    "catalog_items": 77057,
+    "retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  "test": {
+    "recall20": 0.022332506203473945,
+    "hit20": 0.022332506203473945,
+    "ndcg20": 0.009420052719628143,
+    "users": 5642,
+    "catalog_items": 77057,
+    "retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  "training_device": "cpu",
+  "candidate_scope": "items observed in the selected training cohort"
+}

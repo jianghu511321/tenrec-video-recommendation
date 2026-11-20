@@ -1,0 +1,32 @@
+{
+  "source": "E:\\Tenrec\\Tenrec\\sbr_data_1M.csv",
+  "source_size_bytes": 1120679998,
+  "source_mtime": "2022-11-27T10:36:01",
+  "source_description": "Tenrec official SBR derived dataset: click-positive histories, items with corpus frequency below 2 or above 200000 removed, first 1M grouped user histories",
+  "selection": "first 10000 user groups from the official SBR file",
+  "user_group_contiguity_checked": true,
+  "split": "per-user next-item: all but last two events train; penultimate validation target; final event test target",
+  "candidate_catalog": "items present in training prefixes of all users with at least five clicks",
+  "evaluation": "split-specific, first-time targets in the training catalog. At test time use the observed penultimate click when it is in the catalog, regardless of its validation eligibility.",
+  "counts": {
+    "users_read": 10000,
+    "raw_click_interactions": 463834,
+    "users_too_short": 81,
+    "train_users": 9919,
+    "train_items": 135918,
+    "train_clicks": 443782,
+    "train_next_item_pairs": 433863,
+    "validation_targets": 7808,
+    "validation_excluded": {
+      "repeat": 53,
+      "outside_catalog": 2058
+    },
+    "test_targets": 7860,
+    "test_excluded": {
+      "repeat": 85,
+      "outside_catalog": 1974
+    },
+    "test_histories_skipping_unknown_penultimate": 1324
+  },
+  "cohort_sha256": "e1dd06db1104aa4f7538f2a8657a16d39a4c5d30f5448d693b7fe6b5ae2976fc"
+}

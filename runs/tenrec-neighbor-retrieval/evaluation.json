@@ -1,0 +1,69 @@
+{
+  "cohort_sha256": "e1dd06db1104aa4f7538f2a8657a16d39a4c5d30f5448d693b7fe6b5ae2976fc",
+  "fit_users": 9919,
+  "catalog_items": 135918,
+  "config": {
+    "idf_power": 0.5,
+    "recent": true,
+    "neighbors": 160,
+    "popularity_penalty": 0.0,
+    "collaborative_weight": 1.0
+  },
+  "fresh_cohort": {
+    "source": "E:\\Tenrec\\Tenrec\\sbr_data_1M.csv",
+    "offset": 10000,
+    "requested_users": 10000,
+    "counts": {
+      "users_scanned": 10000,
+      "target_outside_catalog": 1915,
+      "repeat_target": 64,
+      "history_too_short": 71,
+      "no_known_history": 3,
+      "evaluated_users": 7947
+    },
+    "popularity": {
+      "users": 7947,
+      "hits20": 213,
+      "hits100": 637,
+      "recall20": 0.026802567006417515,
+      "recall100": 0.08015603372341765,
+      "ndcg20": 0.010321192913943636
+    },
+    "model": {
+      "users": 7947,
+      "hits20": 709,
+      "hits100": 1496,
+      "recall20": 0.08921605637347427,
+      "recall100": 0.18824713728450987,
+      "ndcg20": 0.04203746662569036
+    },
+    "ndcg20_difference": 0.03171627371174673,
+    "ndcg20_paired_bootstrap_95_percent_interval": [
+      0.028622924882077593,
+      0.03463603301172007
+    ]
+  },
+  "previous_test_cohort": {
+    "popularity": {
+      "users": 7860,
+      "hits20": 184,
+      "hits100": 573,
+      "recall20": 0.02340966921119593,
+      "recall100": 0.07290076335877863,
+      "ndcg20": 0.00930970896642577
+    },
+    "model": {
+      "users": 7860,
+      "hits20": 646,
+      "hits100": 1437,
+      "recall20": 0.0821882951653944,
+      "recall100": 0.18282442748091604,
+      "ndcg20": 0.037059655628224386
+    },
+    "ndcg20_difference": 0.027749946661798613,
+    "ndcg20_paired_bootstrap_95_percent_interval": [
+      0.024845088651285183,
+      0.03058453390017076
+    ]
+  }
+}

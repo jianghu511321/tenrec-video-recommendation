@@ -1,0 +1,19 @@
+{
+  "validation": {
+    "recall20": 0.03296703296703297,
+    "hit20": 0.03296703296703297,
+    "ndcg20": 0.012746329230827998,
+    "users": 5642,
+    "candidate_catalog": 77057,
+    "model": "training item popularity; exact full-catalog ranking"
+  },
+  "test": {
+    "recall20": 0.02782701169797944,
+    "hit20": 0.02782701169797944,
+    "ndcg20": 0.011266826265109444,
+    "users": 5642,
+    "candidate_catalog": 77057,
+    "model": "training item popularity; exact full-catalog ranking"
+  },
+  "protocol": "same per-user temporal targets and train-seen candidate catalog as SASRec; prior clicks filtered"
+}

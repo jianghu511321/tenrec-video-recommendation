@@ -1,0 +1,19 @@
+{
+  "scope": "Validation only. Item frequencies are training click counts.",
+  "catalog_fraction_items_with_at_most_two_train_clicks": 0.7884018305154579,
+  "validation_target_median_train_clicks": 14.0,
+  "uniform-windowed": {
+    "selected_epoch": 8,
+    "top20_slots": 156160,
+    "top20_unique_items": 84,
+    "top20_median_train_clicks": 314.0,
+    "top20_fraction_items_with_at_most_two_train_clicks": 0.0016329405737704919
+  },
+  "mixed-windowed": {
+    "selected_epoch": 5,
+    "top20_slots": 156160,
+    "top20_unique_items": 22799,
+    "top20_median_train_clicks": 1.0,
+    "top20_fraction_items_with_at_most_two_train_clicks": 0.7607197745901639
+  }
+}

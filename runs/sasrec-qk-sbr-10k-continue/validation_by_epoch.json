@@ -1,0 +1,63 @@
+[
+  {
+    "epoch": 5,
+    "train_pairwise_loss": null,
+    "validation_recall20": 0.02197802197802198,
+    "validation_hit20": 0.02197802197802198,
+    "validation_ndcg20": 0.008534078410658643,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search",
+    "optimizer_state": "fresh Adam state for continuation"
+  },
+  {
+    "epoch": 6,
+    "train_pairwise_loss": 0.5639311834735796,
+    "validation_recall20": 0.02729528535980149,
+    "validation_hit20": 0.02729528535980149,
+    "validation_ndcg20": 0.010629410010494203,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 7,
+    "train_pairwise_loss": 0.5369505611408625,
+    "validation_recall20": 0.02694080113434952,
+    "validation_hit20": 0.02694080113434952,
+    "validation_ndcg20": 0.010212604353784049,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 8,
+    "train_pairwise_loss": 0.5172710574972686,
+    "validation_recall20": 0.029067706487061327,
+    "validation_hit20": 0.029067706487061327,
+    "validation_ndcg20": 0.011080973778040189,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 9,
+    "train_pairwise_loss": 0.5008571371560743,
+    "validation_recall20": 0.029422190712513292,
+    "validation_hit20": 0.029422190712513292,
+    "validation_ndcg20": 0.011138554238201164,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  },
+  {
+    "epoch": 10,
+    "train_pairwise_loss": 0.485466126556117,
+    "validation_recall20": 0.02782701169797944,
+    "validation_hit20": 0.02782701169797944,
+    "validation_ndcg20": 0.010780017920051881,
+    "validation_users": 5642,
+    "validation_catalog_items": 77057,
+    "validation_retrieval": "FAISS IndexFlatIP exact inner-product search"
+  }
+]

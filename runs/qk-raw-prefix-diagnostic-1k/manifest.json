@@ -1,0 +1,79 @@
+{
+  "source": "E:\\Tenrec\\Tenrec\\QK-video.csv",
+  "source_size_bytes": 15116976129,
+  "source_mtime": "2022-11-27T07:15:17",
+  "selection": "first 1000 user groups in source order",
+  "source_order": "Tenrec Readme documents per-user click order; user IDs are checked for nondecreasing order in the selected prefix",
+  "users_read": 1000,
+  "users_with_fewer_than_10_rows_excluded": 427,
+  "raw_interactions_read": 12260,
+  "temporal_split": "within-user source order: 80% train, next 10% validation, final 10% test",
+  "history_feature": "last 10 click-positive items strictly before each row; no current/future feedback included",
+  "features": [
+    "user_id",
+    "item_id",
+    "video_category",
+    "gender",
+    "age",
+    "hist_1",
+    "hist_2",
+    "hist_3",
+    "hist_4",
+    "hist_5",
+    "hist_6",
+    "hist_7",
+    "hist_8",
+    "hist_9",
+    "hist_10"
+  ],
+  "labels": [
+    "click",
+    "like",
+    "share",
+    "follow"
+  ],
+  "id_maps_fit_on": "training split only",
+  "unseen_test_or_validation_items_dropped": {
+    "valid": 676,
+    "test": 915
+  },
+  "split_counts": {
+    "train": {
+      "raw_rows": 7524,
+      "retained_rows": 7524
+    },
+    "valid": {
+      "raw_rows": 923,
+      "retained_rows": 247
+    },
+    "test": {
+      "raw_rows": 1243,
+      "retained_rows": 328
+    }
+  },
+  "label_rates": {
+    "train": {
+      "click": 0.40975544922913343,
+      "like": 0.04226475279106858,
+      "share": 0.006246677299308878,
+      "follow": 0.004651780967570442
+    },
+    "valid": {
+      "click": 0.4534412955465587,
+      "like": 0.04048582995951417,
+      "share": 0.004048582995951417,
+      "follow": 0.0
+    },
+    "test": {
+      "click": 0.375,
+      "like": 0.03353658536585366,
+      "share": 0.0,
+      "follow": 0.003048780487804878
+    }
+  },
+  "sha256": {
+    "train": "84d34dc5aafcf2dd65fc60bcb506df5f3cba002ff2b92dcbca7e4d822ba7cae0",
+    "valid": "c56dc5ccfe0ba40e1498266200dd8639432ba1d0842e41c2138b1fb3f40997ba",
+    "test": "6839a51614594575c092ce5eb7140c7b9c0c5e15ac901e9d25a2b20545896231"
+  }
+}

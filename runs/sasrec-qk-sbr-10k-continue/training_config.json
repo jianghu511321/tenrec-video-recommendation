@@ -1,0 +1,13 @@
+{
+  "seed": 20261114,
+  "total_epochs_run": 10,
+  "epochs_this_invocation": 5,
+  "initial_checkpoint": "E:\\Tenrec\\tenerec_work\\runs\\sasrec-qk-sbr-10k\\best_sasrec.pt",
+  "optimizer_state": "fresh Adam state for continuation",
+  "batch_size": 512,
+  "max_len": 50,
+  "embedding_dim": 64,
+  "learning_rate": 0.0005,
+  "device": "cpu",
+  "objective": "sampled-negative pairwise next-item loss"
+}
