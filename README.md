@@ -1,5 +1,7 @@
 # Tenrec Video Recommendation
 
+**English** | [简体中文](README.zh-CN.md)
+
 Offline next-click video recommendation on a subset of the Tenrec QK-video SBR dataset. The project compares popularity, SASRec-style sequential retrieval with FAISS, negative-sampling variants, and similarity-weighted collaborative retrieval.
 
 The best measured method uses recent clicks and shared rare-video interactions to find similar users. On a separate cohort of 7,947 eligible users, it increased Recall@20 from **2.68% to 8.92%** and NDCG@20 from **0.01032 to 0.04204** against training-item popularity.
@@ -15,7 +17,7 @@ The collaborative retriever was fitted on the earlier click histories of 9,919 u
 
 The NDCG@20 difference is 0.03172. A paired bootstrap over users, with 2,000 resamples, gives a 95% interval of [0.02862, 0.03464]. Both methods use the same catalog, evaluation users, and previously-clicked-item filter.
 
-[Detailed report (Chinese)](runs/tenrec-neighbor-retrieval/结果总结.md) · [Evaluation JSON](runs/tenrec-neighbor-retrieval/evaluation.json) · [Validation search](runs/tenrec-neighbor-retrieval/selection.json)
+[Detailed report](runs/tenrec-neighbor-retrieval/RESULTS.md) · [Evaluation JSON](runs/tenrec-neighbor-retrieval/evaluation.json) · [Validation search](runs/tenrec-neighbor-retrieval/selection.json)
 
 ## How the collaborative retriever works
 
@@ -70,7 +72,7 @@ The following comparison uses the corrected original-user test cohort of 7,860 u
 | SASRec, uniform negatives | 1.69% | 5.47% | 0.006979 |
 | SASRec, 50/50 uniform and popularity-weighted negatives | 0.013% | 0.076% | 0.0000355 |
 
-[Negative-sampling report (Chinese)](runs/sasrec-qk-sbr-10k-negatives/结果总结.md)
+[Negative-sampling report](runs/sasrec-qk-sbr-10k-negatives/RESULTS.md)
 
 To reproduce these comparisons after preparing a fresh cohort as above, run:
 
@@ -80,6 +82,8 @@ foreach ($experimentSampler in @('uniform', 'mixed')) {
     & $experimentPython .\train_sasrec_faiss.py --data "$experimentRoot\data" --out "$experimentRoot\$experimentSampler-windowed" --epochs 8 --batch-size 128 --max-len 50 --embedding-dim 64 --learning-rate 0.001 --device cpu --cpu-threads 4 --seed 20261114 --negative-sampling $experimentSampler --sequence-batches
 }
 ```
+
+[Initial sequential-retrieval report](RESULTS.md)
 
 ## Project files
 
